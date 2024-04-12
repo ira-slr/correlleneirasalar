@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SALAR, CORRELLENE IRA N.</title>
+    <link rel="icon" href="">
+    <link href="https://use.typekit.net/emv3zbo.css" rel="stylesheet" crossorigin="anonymous">
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: proxima-nova, sans-serif;
+            color: #fcffff;
+            font-size: 16px;
+        }
+        
+        body {
+            background: rgb(0,0,0);
+            background: linear-gradient(96deg, rgba(0,0,0,1) 5%, rgba(53,51,205,1) 100%);
+            overflow: auto;
+            max-height: 101vh;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 80px;
+        }
+        nav ul {
+            list-style: none;
+            align-items: center;
+        }
+        nav ul li {
+            display: inline-block;
+            padding: 0 2em;
+            font-size: 18px;
+            transition: all 0.5s ease-in-out;
+            a {
+                text-decoration: none;
+            }
+        }
+        nav ul li:hover {
+            text-decoration: underline;
+        }
+        .logo-p {
+            font-size: 30px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .lets-talk {
+            background-color: transparent;
+            border: 1px solid #fcffff;
+            font-size: 18px;
+            padding: 0.6em 1.7em;
+            transition: all 0.3s ease-in-out;
+            cursor: pointer;
+        }
+        .lets-talk:hover {
+            background-color: #fcffff;
+            border: 1px solid #fcffff;
+            color: #000;
+        }
+
+        .hero-page {
+            padding: 0 80px;
+            div {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                position: relative;
+                div {
+                    flex-direction: column;
+                    align-items:first baseline;
+                    width: 100vh;
+                    top: -50px;
+                    p {
+                        font-size: 64px;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+        .ira-img {
+            width: 64vh;
+            padding-left: 30px;
+        }
+        .lets-talk-button {
+            margin-top: 10px;
+            background-color: transparent;
+            border: 1px solid #fcffff;
+            font-size: 28px;
+            padding: 0.5em 1.7em;
+            transition: all 0.3s ease-in-out;
+            cursor: pointer;
+        }
+        .lets-talk:hover {
+            background-color: #fcffff;
+            border: 1px solid #fcffff;
+            color: #000;
+        }
+
+        .aboutme-page {
+            padding: 0 80px;
+            div {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                column-gap: 50px;
+                div {
+                    flex-direction: column;
+                    align-items: center;
+                }
+            }
+        }
+        .ira-img2 {
+            width: 67vh;
+        }
+        .aboutme-title {
+            font-weight: bold;
+            font-size: 38px;
+            padding-bottom: 20px;
+        }
+        .aboutme-name {
+            font-weight: bold;
+            font-size: 50px;
+            width: 600px;
+            text-align: center;
+            padding-bottom: 25px;
+        }
+        .aboutme-skills {
+            font-weight: bold;
+            font-size: 24px;
+            text-align: center;
+            padding-bottom: 25px;
+        }
+        hr {
+            width: 100%;
+        }
+        .aboutme-desc {
+            text-align: justify;
+            font-weight: normal;
+            font-size: 20px;
+            padding-top: 25px;
+        }
+
+        ::-webkit-scrollbar {
+            width: 12px;
+        }
+        ::-webkit-scrollbar-track {
+            background: rgb(93, 91, 207); 
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #fcffff; 
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #e0e3e3; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div><p class="logo-p">IRA.</p></div>
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div><button class="nav-button lets-talk">LET'S TALK</button></div>
+    </header>
+    <section class="hero-page">
+        <div>
+            <div>
+                <p>MABUHAY, I'M IRA.</p>
+                <p>A WEB DEVELOPER</p>
+                <p>FROM THE PHILIPPINES.</p>
+                <button class="lets-talk-button lets-talk">LET'S TALK</button>
+            </div>
+            <img class="ira-img" src="images/ira-img.png" alt="image of ira 2">
+        </div>
+    </section>
+    <section class="aboutme-page">
+        <div>
+            <div><img class="ira-img2" src="images/ira-img2.png" alt="image of ira"></div>
+            <div>
+                <p class="aboutme-title">ABOUT ME</p>
+                <p class="aboutme-name">CORRELLENE IRA N. SALAR</p>
+                <p class="aboutme-skills">WEB DEVELOPER &#8226; UI/UX DESIGNER &#8226; PROGRAMMER</p>
+                <hr>
+                <p class="aboutme-desc">Correllene Ira N. Salar is a first-year college student taking up a Bachelor of Science in Computer Science at the University of Cabuyao. Passionate about technology and becoming the best version of herself, Ira is immersing herself in learning, designing, and developing. Through hands-on projects and a thirst for new knowledge, she's building the foundation of her skills, where her expertise will impact the lives of others positively and innovate the technological world.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
